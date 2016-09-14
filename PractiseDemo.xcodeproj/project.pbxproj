@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4C45B0DA65615DE4E53C028C /* libPods-PractiseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 524AC7F9B774FE61AE2A6C66 /* libPods-PractiseDemo.a */; };
+		9E2473651D89872400411D6D /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2473641D89872400411D6D /* SquareViewController.m */; };
+		9E2473681D898BDA00411D6D /* HomePage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2473671D898BDA00411D6D /* HomePage.xcassets */; };
+		9E24736A1D8995B200411D6D /* Person.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2473691D8995B200411D6D /* Person.xcassets */; };
+		9E24736C1D899D3B00411D6D /* GoHome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E24736B1D899D3B00411D6D /* GoHome.xcassets */; };
+		9E24736E1D89A00F00411D6D /* Square.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E24736D1D89A00F00411D6D /* Square.xcassets */; };
 		9EE594311D88F94B0042A9BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594301D88F94B0042A9BB /* main.m */; };
 		9EE594341D88F94B0042A9BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594331D88F94B0042A9BB /* AppDelegate.m */; };
 		9EE5943C1D88F94B0042A9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5943B1D88F94B0042A9BB /* Assets.xcassets */; };
@@ -15,6 +20,9 @@
 		9EE5944A1D88F94B0042A9BB /* PractiseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594491D88F94B0042A9BB /* PractiseDemoTests.m */; };
 		9EE594551D88F94B0042A9BB /* PractiseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594541D88F94B0042A9BB /* PractiseDemoUITests.m */; };
 		9EE594641D88FA960042A9BB /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594631D88FA960042A9BB /* MainTabBarController.m */; };
+		9EE594891D894B0C0042A9BB /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594881D894B0C0042A9BB /* HomePageViewController.m */; };
+		9EE5948D1D894B930042A9BB /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5948C1D894B930042A9BB /* PersonViewController.m */; };
+		9EE594911D894C2F0042A9BB /* GoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594901D894C2F0042A9BB /* GoHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,12 @@
 /* Begin PBXFileReference section */
 		155385AAC9327928AE52F811 /* Pods-PractiseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractiseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PractiseDemo/Pods-PractiseDemo.release.xcconfig"; sourceTree = "<group>"; };
 		524AC7F9B774FE61AE2A6C66 /* libPods-PractiseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PractiseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2473631D89872400411D6D /* SquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareViewController.h; sourceTree = "<group>"; };
+		9E2473641D89872400411D6D /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
+		9E2473671D898BDA00411D6D /* HomePage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomePage.xcassets; sourceTree = "<group>"; };
+		9E2473691D8995B200411D6D /* Person.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Person.xcassets; sourceTree = "<group>"; };
+		9E24736B1D899D3B00411D6D /* GoHome.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GoHome.xcassets; sourceTree = "<group>"; };
+		9E24736D1D89A00F00411D6D /* Square.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Square.xcassets; sourceTree = "<group>"; };
 		9EE5942C1D88F94B0042A9BB /* PractiseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PractiseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE594301D88F94B0042A9BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EE594321D88F94B0042A9BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +66,17 @@
 		9EE594561D88F94B0042A9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EE594621D88FA960042A9BB /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 		9EE594631D88FA960042A9BB /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		9EE5947A1D89127F0042A9BB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9EE5947C1D8915E50042A9BB /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		9EE5947D1D8940F60042A9BB /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		9EE5947E1D8941740042A9BB /* ThirdMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdMacros.h; sourceTree = "<group>"; };
+		9EE594801D8942500042A9BB /* UIImageDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageDownload.h; sourceTree = "<group>"; };
+		9EE594871D894B0C0042A9BB /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		9EE594881D894B0C0042A9BB /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		9EE5948B1D894B930042A9BB /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		9EE5948C1D894B930042A9BB /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		9EE5948F1D894C2F0042A9BB /* GoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoHomeViewController.h; sourceTree = "<group>"; };
+		9EE594901D894C2F0042A9BB /* GoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoHomeViewController.m; sourceTree = "<group>"; };
 		D8AD4A8597F80B9530534B56 /* Pods-PractiseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractiseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PractiseDemo/Pods-PractiseDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +123,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9E2473621D8986C100411D6D /* Square（广场） */ = {
+			isa = PBXGroup;
+			children = (
+				9E2473631D89872400411D6D /* SquareViewController.h */,
+				9E2473641D89872400411D6D /* SquareViewController.m */,
+			);
+			name = "Square（广场）";
+			sourceTree = "<group>";
+		};
 		9EE594231D88F94B0042A9BB = {
 			isa = PBXGroup;
 			children = (
@@ -123,11 +157,11 @@
 		9EE5942E1D88F94B0042A9BB /* PractiseDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9EE594691D8904F50042A9BB /* SDKFile（集成） */,
-				9EE594681D8904ED0042A9BB /* Vender（第三方） */,
-				9EE594671D8904E20042A9BB /* Resource（资源） */,
-				9EE594661D8904D00042A9BB /* Expand（扩展） */,
 				9EE594651D8904B70042A9BB /* Main（主要） */,
+				9EE594661D8904D00042A9BB /* Expand（扩展） */,
+				9EE594671D8904E20042A9BB /* Resource（资源） */,
+				9EE594681D8904ED0042A9BB /* Vender（第三方） */,
+				9EE594691D8904F50042A9BB /* SDKFile（集成） */,
 				9EE5942F1D88F94B0042A9BB /* Supporting Files */,
 			);
 			path = PractiseDemo;
@@ -136,7 +170,6 @@
 		9EE5942F1D88F94B0042A9BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9EE594301D88F94B0042A9BB /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,9 +196,13 @@
 			isa = PBXGroup;
 			children = (
 				9EE5946F1D89064F0042A9BB /* Login（登录） */,
+				9EE594861D894AC60042A9BB /* TabBar导航 */,
+				9EE5946C1D89060C0042A9BB /* Home（首页） */,
+				9EE5948E1D894BB40042A9BB /* GoHome（到家） */,
+				9E2473621D8986C100411D6D /* Square（广场） */,
+				9EE5948A1D894B570042A9BB /* Person（个人） */,
 				9EE5946E1D89063E0042A9BB /* Base（基类） */,
 				9EE5946D1D89062E0042A9BB /* Public（公共） */,
-				9EE5946C1D89060C0042A9BB /* Home（首页） */,
 				9EE5946B1D8905F80042A9BB /* Preview（预演） */,
 				9EE5946A1D8905E50042A9BB /* Logger（日志） */,
 			);
@@ -188,6 +225,7 @@
 		9EE594671D8904E20042A9BB /* Resource（资源） */ = {
 			isa = PBXGroup;
 			children = (
+				9EE594791D890ECD0042A9BB /* AppDelegate */,
 				9EE594781D89080B0042A9BB /* Plist */,
 				9EE594771D8907D10042A9BB /* Image（图片资源） */,
 				9EE594761D8907AE0042A9BB /* Global */,
@@ -198,6 +236,7 @@
 		9EE594681D8904ED0042A9BB /* Vender（第三方） */ = {
 			isa = PBXGroup;
 			children = (
+				9EE5947F1D8941EA0042A9BB /* Podfile_HeaderFile */,
 			);
 			name = "Vender（第三方）";
 			sourceTree = "<group>";
@@ -226,8 +265,8 @@
 		9EE5946C1D89060C0042A9BB /* Home（首页） */ = {
 			isa = PBXGroup;
 			children = (
-				9EE594621D88FA960042A9BB /* MainTabBarController.h */,
-				9EE594631D88FA960042A9BB /* MainTabBarController.m */,
+				9EE594871D894B0C0042A9BB /* HomePageViewController.h */,
+				9EE594881D894B0C0042A9BB /* HomePageViewController.m */,
 			);
 			name = "Home（首页）";
 			sourceTree = "<group>";
@@ -249,6 +288,11 @@
 		9EE5946F1D89064F0042A9BB /* Login（登录） */ = {
 			isa = PBXGroup;
 			children = (
+				9EE594851D894A820042A9BB /* Other */,
+				9EE594841D894A560042A9BB /* Service */,
+				9EE594831D894A3E0042A9BB /* Controller */,
+				9EE594821D894A2E0042A9BB /* View */,
+				9EE594811D894A240042A9BB /* Model */,
 			);
 			name = "Login（登录）";
 			sourceTree = "<group>";
@@ -263,6 +307,8 @@
 		9EE594711D8906ED0042A9BB /* Macros（宏） */ = {
 			isa = PBXGroup;
 			children = (
+				9EE5947D1D8940F60042A9BB /* Macros.h */,
+				9EE5947E1D8941740042A9BB /* ThirdMacros.h */,
 			);
 			name = "Macros（宏）";
 			sourceTree = "<group>";
@@ -298,9 +344,9 @@
 		9EE594761D8907AE0042A9BB /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				9EE594321D88F94B0042A9BB /* AppDelegate.h */,
-				9EE594331D88F94B0042A9BB /* AppDelegate.m */,
 				9EE5943D1D88F94B0042A9BB /* LaunchScreen.storyboard */,
+				9EE594301D88F94B0042A9BB /* main.m */,
+				9EE5947A1D89127F0042A9BB /* PrefixHeader.pch */,
 			);
 			name = Global;
 			sourceTree = "<group>";
@@ -309,6 +355,10 @@
 			isa = PBXGroup;
 			children = (
 				9EE5943B1D88F94B0042A9BB /* Assets.xcassets */,
+				9E2473671D898BDA00411D6D /* HomePage.xcassets */,
+				9E2473691D8995B200411D6D /* Person.xcassets */,
+				9E24736B1D899D3B00411D6D /* GoHome.xcassets */,
+				9E24736D1D89A00F00411D6D /* Square.xcassets */,
 			);
 			name = "Image（图片资源）";
 			sourceTree = "<group>";
@@ -319,6 +369,86 @@
 				9EE594401D88F94B0042A9BB /* Info.plist */,
 			);
 			name = Plist;
+			sourceTree = "<group>";
+		};
+		9EE594791D890ECD0042A9BB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9EE594321D88F94B0042A9BB /* AppDelegate.h */,
+				9EE594331D88F94B0042A9BB /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9EE5947F1D8941EA0042A9BB /* Podfile_HeaderFile */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5947C1D8915E50042A9BB /* KeyboardManager.h */,
+				9EE594801D8942500042A9BB /* UIImageDownload.h */,
+			);
+			name = Podfile_HeaderFile;
+			sourceTree = "<group>";
+		};
+		9EE594811D894A240042A9BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9EE594821D894A2E0042A9BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9EE594831D894A3E0042A9BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9EE594841D894A560042A9BB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		9EE594851D894A820042A9BB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		9EE594861D894AC60042A9BB /* TabBar导航 */ = {
+			isa = PBXGroup;
+			children = (
+				9EE594621D88FA960042A9BB /* MainTabBarController.h */,
+				9EE594631D88FA960042A9BB /* MainTabBarController.m */,
+			);
+			name = "TabBar导航";
+			sourceTree = "<group>";
+		};
+		9EE5948A1D894B570042A9BB /* Person（个人） */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5948B1D894B930042A9BB /* PersonViewController.h */,
+				9EE5948C1D894B930042A9BB /* PersonViewController.m */,
+			);
+			name = "Person（个人）";
+			sourceTree = "<group>";
+		};
+		9EE5948E1D894BB40042A9BB /* GoHome（到家） */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5948F1D894C2F0042A9BB /* GoHomeViewController.h */,
+				9EE594901D894C2F0042A9BB /* GoHomeViewController.m */,
+			);
+			name = "GoHome（到家）";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,7 +560,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2473681D898BDA00411D6D /* HomePage.xcassets in Resources */,
 				9EE5943F1D88F94B0042A9BB /* LaunchScreen.storyboard in Resources */,
+				9E24736E1D89A00F00411D6D /* Square.xcassets in Resources */,
+				9E24736C1D899D3B00411D6D /* GoHome.xcassets in Resources */,
+				9E24736A1D8995B200411D6D /* Person.xcassets in Resources */,
 				9EE5943C1D88F94B0042A9BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,9 +638,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE5948D1D894B930042A9BB /* PersonViewController.m in Sources */,
+				9EE594891D894B0C0042A9BB /* HomePageViewController.m in Sources */,
 				9EE594341D88F94B0042A9BB /* AppDelegate.m in Sources */,
+				9EE594911D894C2F0042A9BB /* GoHomeViewController.m in Sources */,
 				9EE594311D88F94B0042A9BB /* main.m in Sources */,
 				9EE594641D88FA960042A9BB /* MainTabBarController.m in Sources */,
+				9E2473651D89872400411D6D /* SquareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +709,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -593,7 +732,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -618,6 +757,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -634,7 +774,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -646,6 +786,7 @@
 			baseConfigurationReference = D8AD4A8597F80B9530534B56 /* Pods-PractiseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/bearclawr/GitHub/PractiseDemo/PractiseDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = PractiseDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -659,6 +800,7 @@
 			baseConfigurationReference = 155385AAC9327928AE52F811 /* Pods-PractiseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/bearclawr/GitHub/PractiseDemo/PractiseDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = PractiseDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
