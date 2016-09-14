@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C45B0DA65615DE4E53C028C /* libPods-PractiseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 524AC7F9B774FE61AE2A6C66 /* libPods-PractiseDemo.a */; };
 		9EE594311D88F94B0042A9BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594301D88F94B0042A9BB /* main.m */; };
 		9EE594341D88F94B0042A9BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594331D88F94B0042A9BB /* AppDelegate.m */; };
-		9EE594371D88F94B0042A9BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594361D88F94B0042A9BB /* ViewController.m */; };
-		9EE5943A1D88F94B0042A9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE594381D88F94B0042A9BB /* Main.storyboard */; };
 		9EE5943C1D88F94B0042A9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5943B1D88F94B0042A9BB /* Assets.xcassets */; };
 		9EE5943F1D88F94B0042A9BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE5943D1D88F94B0042A9BB /* LaunchScreen.storyboard */; };
 		9EE5944A1D88F94B0042A9BB /* PractiseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594491D88F94B0042A9BB /* PractiseDemoTests.m */; };
 		9EE594551D88F94B0042A9BB /* PractiseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594541D88F94B0042A9BB /* PractiseDemoUITests.m */; };
+		9EE594641D88FA960042A9BB /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE594631D88FA960042A9BB /* MainTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		155385AAC9327928AE52F811 /* Pods-PractiseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractiseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PractiseDemo/Pods-PractiseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		524AC7F9B774FE61AE2A6C66 /* libPods-PractiseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PractiseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE5942C1D88F94B0042A9BB /* PractiseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PractiseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE594301D88F94B0042A9BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EE594321D88F94B0042A9BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EE594331D88F94B0042A9BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9EE594351D88F94B0042A9BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9EE594361D88F94B0042A9BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9EE594391D88F94B0042A9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EE5943B1D88F94B0042A9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EE5943E1D88F94B0042A9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EE594401D88F94B0042A9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,9 @@
 		9EE594501D88F94B0042A9BB /* PractiseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PractiseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE594541D88F94B0042A9BB /* PractiseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PractiseDemoUITests.m; sourceTree = "<group>"; };
 		9EE594561D88F94B0042A9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE594621D88FA960042A9BB /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		9EE594631D88FA960042A9BB /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		D8AD4A8597F80B9530534B56 /* Pods-PractiseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractiseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PractiseDemo/Pods-PractiseDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C45B0DA65615DE4E53C028C /* libPods-PractiseDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D295BAB89CA41E8882159AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8AD4A8597F80B9530534B56 /* Pods-PractiseDemo.debug.xcconfig */,
+				155385AAC9327928AE52F811 /* Pods-PractiseDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64D8FD30C7B7B732D34CEA07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				524AC7F9B774FE61AE2A6C66 /* libPods-PractiseDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9EE594231D88F94B0042A9BB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,8 @@
 				9EE594481D88F94B0042A9BB /* PractiseDemoTests */,
 				9EE594531D88F94B0042A9BB /* PractiseDemoUITests */,
 				9EE5942D1D88F94B0042A9BB /* Products */,
+				0D295BAB89CA41E8882159AA /* Pods */,
+				64D8FD30C7B7B732D34CEA07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +123,11 @@
 		9EE5942E1D88F94B0042A9BB /* PractiseDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9EE594321D88F94B0042A9BB /* AppDelegate.h */,
-				9EE594331D88F94B0042A9BB /* AppDelegate.m */,
-				9EE594351D88F94B0042A9BB /* ViewController.h */,
-				9EE594361D88F94B0042A9BB /* ViewController.m */,
-				9EE594381D88F94B0042A9BB /* Main.storyboard */,
-				9EE5943B1D88F94B0042A9BB /* Assets.xcassets */,
-				9EE5943D1D88F94B0042A9BB /* LaunchScreen.storyboard */,
-				9EE594401D88F94B0042A9BB /* Info.plist */,
+				9EE594691D8904F50042A9BB /* SDKFile（集成） */,
+				9EE594681D8904ED0042A9BB /* Vender（第三方） */,
+				9EE594671D8904E20042A9BB /* Resource（资源） */,
+				9EE594661D8904D00042A9BB /* Expand（扩展） */,
+				9EE594651D8904B70042A9BB /* Main（主要） */,
 				9EE5942F1D88F94B0042A9BB /* Supporting Files */,
 			);
 			path = PractiseDemo;
@@ -140,6 +159,168 @@
 			path = PractiseDemoUITests;
 			sourceTree = "<group>";
 		};
+		9EE594651D8904B70042A9BB /* Main（主要） */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5946F1D89064F0042A9BB /* Login（登录） */,
+				9EE5946E1D89063E0042A9BB /* Base（基类） */,
+				9EE5946D1D89062E0042A9BB /* Public（公共） */,
+				9EE5946C1D89060C0042A9BB /* Home（首页） */,
+				9EE5946B1D8905F80042A9BB /* Preview（预演） */,
+				9EE5946A1D8905E50042A9BB /* Logger（日志） */,
+			);
+			name = "Main（主要）";
+			sourceTree = "<group>";
+		};
+		9EE594661D8904D00042A9BB /* Expand（扩展） */ = {
+			isa = PBXGroup;
+			children = (
+				9EE594751D8907310042A9BB /* DataBase（数据库） */,
+				9EE594741D89071E0042A9BB /* Category（分类） */,
+				9EE594731D89070D0042A9BB /* Network（网络） */,
+				9EE594721D8906FF0042A9BB /* Tool（工具类） */,
+				9EE594711D8906ED0042A9BB /* Macros（宏） */,
+				9EE594701D8906D40042A9BB /* Const（常量） */,
+			);
+			name = "Expand（扩展）";
+			sourceTree = "<group>";
+		};
+		9EE594671D8904E20042A9BB /* Resource（资源） */ = {
+			isa = PBXGroup;
+			children = (
+				9EE594781D89080B0042A9BB /* Plist */,
+				9EE594771D8907D10042A9BB /* Image（图片资源） */,
+				9EE594761D8907AE0042A9BB /* Global */,
+			);
+			name = "Resource（资源）";
+			sourceTree = "<group>";
+		};
+		9EE594681D8904ED0042A9BB /* Vender（第三方） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Vender（第三方）";
+			sourceTree = "<group>";
+		};
+		9EE594691D8904F50042A9BB /* SDKFile（集成） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "SDKFile（集成）";
+			sourceTree = "<group>";
+		};
+		9EE5946A1D8905E50042A9BB /* Logger（日志） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Logger（日志）";
+			sourceTree = "<group>";
+		};
+		9EE5946B1D8905F80042A9BB /* Preview（预演） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Preview（预演）";
+			sourceTree = "<group>";
+		};
+		9EE5946C1D89060C0042A9BB /* Home（首页） */ = {
+			isa = PBXGroup;
+			children = (
+				9EE594621D88FA960042A9BB /* MainTabBarController.h */,
+				9EE594631D88FA960042A9BB /* MainTabBarController.m */,
+			);
+			name = "Home（首页）";
+			sourceTree = "<group>";
+		};
+		9EE5946D1D89062E0042A9BB /* Public（公共） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Public（公共）";
+			sourceTree = "<group>";
+		};
+		9EE5946E1D89063E0042A9BB /* Base（基类） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Base（基类）";
+			sourceTree = "<group>";
+		};
+		9EE5946F1D89064F0042A9BB /* Login（登录） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Login（登录）";
+			sourceTree = "<group>";
+		};
+		9EE594701D8906D40042A9BB /* Const（常量） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Const（常量）";
+			sourceTree = "<group>";
+		};
+		9EE594711D8906ED0042A9BB /* Macros（宏） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Macros（宏）";
+			sourceTree = "<group>";
+		};
+		9EE594721D8906FF0042A9BB /* Tool（工具类） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tool（工具类）";
+			sourceTree = "<group>";
+		};
+		9EE594731D89070D0042A9BB /* Network（网络） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Network（网络）";
+			sourceTree = "<group>";
+		};
+		9EE594741D89071E0042A9BB /* Category（分类） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Category（分类）";
+			sourceTree = "<group>";
+		};
+		9EE594751D8907310042A9BB /* DataBase（数据库） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "DataBase（数据库）";
+			sourceTree = "<group>";
+		};
+		9EE594761D8907AE0042A9BB /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				9EE594321D88F94B0042A9BB /* AppDelegate.h */,
+				9EE594331D88F94B0042A9BB /* AppDelegate.m */,
+				9EE5943D1D88F94B0042A9BB /* LaunchScreen.storyboard */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		9EE594771D8907D10042A9BB /* Image（图片资源） */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5943B1D88F94B0042A9BB /* Assets.xcassets */,
+			);
+			name = "Image（图片资源）";
+			sourceTree = "<group>";
+		};
+		9EE594781D89080B0042A9BB /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				9EE594401D88F94B0042A9BB /* Info.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +328,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EE594591D88F94B0042A9BB /* Build configuration list for PBXNativeTarget "PractiseDemo" */;
 			buildPhases = (
+				BDAB1E174135239A3257C71C /* [CP] Check Pods Manifest.lock */,
 				9EE594281D88F94B0042A9BB /* Sources */,
 				9EE594291D88F94B0042A9BB /* Frameworks */,
 				9EE5942A1D88F94B0042A9BB /* Resources */,
+				5F612D94A9BFC18121CC93C6 /* [CP] Embed Pods Frameworks */,
+				6DAA47B680FA120647F85F66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +432,6 @@
 			files = (
 				9EE5943F1D88F94B0042A9BB /* LaunchScreen.storyboard in Resources */,
 				9EE5943C1D88F94B0042A9BB /* Assets.xcassets in Resources */,
-				9EE5943A1D88F94B0042A9BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +451,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F612D94A9BFC18121CC93C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PractiseDemo/Pods-PractiseDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAA47B680FA120647F85F66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PractiseDemo/Pods-PractiseDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDAB1E174135239A3257C71C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9EE594281D88F94B0042A9BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE594371D88F94B0042A9BB /* ViewController.m in Sources */,
 				9EE594341D88F94B0042A9BB /* AppDelegate.m in Sources */,
 				9EE594311D88F94B0042A9BB /* main.m in Sources */,
+				9EE594641D88FA960042A9BB /* MainTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +542,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9EE594381D88F94B0042A9BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9EE594391D88F94B0042A9BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9EE5943D1D88F94B0042A9BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -420,9 +643,11 @@
 		};
 		9EE5945A1D88F94B0042A9BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8AD4A8597F80B9530534B56 /* Pods-PractiseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PractiseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BearClawr.PractiseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,9 +656,11 @@
 		};
 		9EE5945B1D88F94B0042A9BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155385AAC9327928AE52F811 /* Pods-PractiseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PractiseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BearClawr.PractiseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +732,7 @@
 				9EE5945B1D88F94B0042A9BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EE5945C1D88F94B0042A9BB /* Build configuration list for PBXNativeTarget "PractiseDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +741,7 @@
 				9EE5945E1D88F94B0042A9BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EE5945F1D88F94B0042A9BB /* Build configuration list for PBXNativeTarget "PractiseDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +750,7 @@
 				9EE594611D88F94B0042A9BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
